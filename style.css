@@ -1,0 +1,153 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:none;
+    box-sizing:border-box;
+  
+    background:transparent;
+  
+    text-decoration:none;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+ol, 
+ul, 
+li {
+  display:block;
+  list-style:none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing:0;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a{
+  cursor: pointer; 
+  color: inherit;
+}
+
+textarea{
+  resize: none;
+}
+
+button, 
+input, 
+textarea, 
+select{
+  appearance: none !important; 
+  -webkit-appearance: none !important; 
+  border-radius: 0;
+}
+
+body{
+    background-color: #ffeedf;
+}
+
+#Header{
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid #145434;
+}
+#Header h1{
+    display: inline-block;
+    font-size: 36px;
+    color: #145434;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+#menu-icon{
+    font-size: 36px;
+    color: #145434;
+    float: right;
+    padding-top:10px;
+    padding-right:20px;
+}
+
+#CardBox{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 50px 60px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    align-content: flex-start; 
+    gap: 60px;
+}
+
+.cards{
+    position: relative;
+    width: 385px;
+    height: 240px;
+    background-color: #145434;
+    color: #ffeedf;
+    padding: 30px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+.num{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 40px;
+    height: 40px;
+    color: #145434;
+    background-color: #ffeedf;
+    border: 2px solid #145434;
+    border-radius: 25px;
+    text-align: center;
+}
+.num p{
+    color: #145434;
+    font-size: 24px;
+    padding-top: 9px;
+}
+.cards h1{
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.cards hr{
+    border: 1px solid #ffeedf;
+    margin-bottom: 10px;
+}
+.cards h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.cards p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cards button{
+    position: absolute;
+    right: -15px;
+    bottom: -15px;
+    width: 200px;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: 14px;
+    background-color: #ffeedf;
+    color: #145434;
+    border: 2px solid #145434;
+}
+#arrow{
+    display: block;
+    float: right;
+    font-size: 36px;
+    margin-top: -10px;
+    padding-right: 5px;
+}
